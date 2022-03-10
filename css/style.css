@@ -1,0 +1,46 @@
+#fejlec {
+    background-image: url(/img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+#focim::first-line {
+    font-family: Cambria, 'Times New Roman';
+    text-transform: uppercase;
+    font-size: 5rem;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(18, 112, 132);
+}
+
+#focim {
+    font-family: Cambria, 'Times New Roman';
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(18, 112, 132);
+    background-color: rgba(255, 255, 255, 0.35);
+    font-size: 2rem;
+    font-style: italic;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+@media (max-width: 768px) { 
+    #focim {
+        font-size: 3rem;
+    }
+}
+
+#navbar {
+    background-color: rgb(18, 112, 132);
+}
+
+a {
+    color: white;
+}
