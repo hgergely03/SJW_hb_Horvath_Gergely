@@ -44,3 +44,16 @@
 a {
     color: white;
 }
+
+#lista {
+    list-style-image: url(/img/icon.png);
+    line-height: 25px;
+}
+
+h2 {
+    font-variant: small-caps;
+}
+
+#arnyek {
+    box-shadow: 2px 2px 5px;
+}
