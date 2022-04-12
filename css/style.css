@@ -10,19 +10,13 @@
     text-transform: uppercase;
     font-size: 5rem;
     letter-spacing: 2px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 10px 20px;
     color: rgb(18, 112, 132);
 }
 
 #focim {
     font-family: Cambria, 'Times New Roman';
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 10px 20px;
     color: rgb(18, 112, 132);
     background-color: rgba(255, 255, 255, 0.35);
     font-size: 2rem;
@@ -61,8 +55,37 @@ h2 {
 table {
     text-align: center;
     vertical-align: middle;
+    border: 1px solid black;
 }
 
 th {
     font-weight: bold;
+    border: 1px solid black;
+}
+
+th[scope="row"] {
+    background-color: rgba(18, 112, 132, 0.2);
+}
+
+td {
+    border: 1px solid black;
+}
+
+p {
+    text-align: justify;
+}
+
+#szamol {
+    background-color: rgb(18, 112, 132);
+    color: white;
+}
+
+#szamol:hover {
+    background-color: rgb(18, 112, 132);
+    color: white;
+}
+
+#szamol:focus {
+    background-color: rgb(18, 112, 132);
+    color: white;
 }
